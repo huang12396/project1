@@ -15,7 +15,7 @@ img{max-width: 100%;}
   background-image: url(img/2.jpg);
   border-bottom: 1px solid #e61f1f;
   height: 600px;
-  padding:100px 400px 50px 1000px;
+padding-top: 100px;
 
 }
 .login{
@@ -45,16 +45,4 @@ margin-right: 40px;
 .button bt1{
   background-color: rgb(255, 0, 0);
 
-}
-/*分辨率为1600*900*/
-@media(max-width: 1600px){              /*分辨率为1600*900*/
-	.middle{padding-left: 400px;}
-}
-@media(max-width: 1366px){                  /*分辨率为1366*/
-	.middle{padding-left: 400px;}
-}
-@media(max-width: 1024px){               /*分辨率为1024*768*/
-	.middle{padding-left: 0px;}
-  .form-group{margin-bottom: 40px;}
-  .button{margin-top: 40px;}
 }
