@@ -33,13 +33,14 @@ padding-bottom: 50px;
 .button{
   margin-top: 100px;
 }
-@media(max-width: 1500px){
+/*分辨率为1600*900*/
+@media(max-width: 1600px){              /*分辨率为1600*900*/
 	.middle{padding-left: 400px;}
 }
-@media(max-width: 1700px){
+@media(max-width: 1366px){                  /*分辨率为1366*/
 	.middle{padding-left: 400px;}
 }
-@media(max-width: 1000px){
+@media(max-width: 1024px){               /*分辨率为1024*768*/   
 	.middle{padding-left: 0px;}
   .form-group{margin-bottom: 40px;}
   .button{margin-top: 40px;}
