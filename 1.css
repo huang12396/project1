@@ -39,10 +39,12 @@ padding-bottom: 50px;
 }
 .button{
   margin-top: 50px;
-color: rgb(255, 0, 0);
 margin-left: 40px;
 margin-right: 40px;
-width: 370px;
+}
+.button bt1{
+  background-color: rgb(255, 0, 0);
+
 }
 /*分辨率为1600*900*/
 @media(max-width: 1600px){              /*分辨率为1600*900*/
