@@ -1,3 +1,5 @@
+/*初始化*/
+
 ol,
 ul {
     list-style: none;
@@ -14,68 +16,154 @@ a {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%
+}
+
+body {    
+    font-size: 13px;
 }
 
 .top {
-    padding: 2% 0px 5% 0px;
-    margin: 0 0 30px 0;
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
 }
 
-.top-left {
+.top-logo {
     float: left;
-}
-
-.top-right {
-    float: right;
-}
-
-.top h4 {
-    text-align: right;
-    vertical-align: middle;
-    padding: 20px 20px 0px 0px;
-}
-
-.logo {
-    width: 300px;
-}
-
-.middle {
-    background-image: url(../img/2.jpg);
-    border-bottom: 1px solid #e61f1f;
-    height: 600px;
-    padding-top: 100px;
-}
-
-.login {
-    width: 450px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px 25px 25px 25px;
-    border: 10px solid rgb(33, 153, 238);
-    height: 300px;
-    padding: 30px;
-    padding-bottom: 50px;
-}
-
-.title p {
-    font-size: 20px;
-    color: rgb(230, 37, 37);
-    margin-bottom: 20px;
-}
-
-.form-group {
-    margin-bottom: 70px;
+    width: 230px;
+    position: absolute;
+    margin-top: 10px;
     margin-left: 30px;
-    margin-right: 40px;
-    width: 300px;
 }
 
-.button {
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
+.top-reg {
+    float: right;
+    color: #808080;
+    margin-top: 30px;
+    position: relative;
+    width: 25%;
+    line-height: 15px;
 }
 
-.button bt1 {
-    background-color: rgb(255, 0, 0);
+.bg {
+    background: url(../img/2.jpg);
+    width: 99%;    
+    height: 600px;
+    position: relative;
 }
+.login{
+    float: right;
+    width: 500px auto;
+    margin-right: 60px;
+    padding: 50px 40px;
+}
+
+.login-top{
+    background-color: #CCFFCC;
+    border-radius: 18px 18px 0 0;
+    padding: 30px 40px;
+    opacity: 0.7;
+}
+.login-top h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    color: #663300;
+    margin: 0 0 20px 0;
+}
+.login-top input[type="text"] {
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 1px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCC;
+    border-radius: 25px;
+    margin: 0 0 15px 0;
+    width: 88%;
+}
+
+.login-top input[type="password"] {
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 1px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCC;
+    border-radius: 25px;
+    margin: 0 0 15px 0;
+    width: 88%;
+}
+
+.forgot a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #0066FF;
+    display: inline-block;
+    border-right: 2px solid #0066FF;
+    padding: 0 12px 0 0;
+}
+
+.forgot a:hover {
+    color: #000000;
+}
+
+.forgot input[type="submit"] {
+    background-color:#FFFFFF;
+    color: #003333;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0px 0px 0px 5px;
+    outline: none;
+    border: none;
+}
+
+.forgot input[type="submit"]:hover {
+    background-color: #FF6600;
+    transition: 1s all;
+}
+.login-bottom {
+    background-color: #CCFFCC;
+    padding: 15px 50px;
+    border-radius: 0 0 25px 25px;
+    text-align: right;
+    border-top: 2px solid #646464;
+}
+
+.login-bottom h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #646464;
+}
+
+.login-bottom h3 a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #006633;
+}
+
+.login-bottom h3 a:hover {
+    color: #0066CC;
+    transition: 0.5s all;
+}
+
+.copyright {
+    text-align: center;
+    margin: 15px;
+    padding: 5px 0px 0px 0px;
+}
+
+.copyright p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #FF0000;
+}
+
